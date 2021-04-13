@@ -5,7 +5,7 @@ plugins {
 apply plugin : 'java'
 
 ext {
-    javaMainClass = "edu.umass.wekademo.WekaDemo"
+    javaMainClass = "edu.umass.wekademo.WekaDemoApp"
 }
 
 application {
@@ -22,4 +22,5 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     implementation group: 'nz.ac.waikato.cms.weka', name: 'weka-stable', version: '3.8.0'
+    implementation group: 'org.codejargon.feather', name: 'feather', version: '1.0'
 }
