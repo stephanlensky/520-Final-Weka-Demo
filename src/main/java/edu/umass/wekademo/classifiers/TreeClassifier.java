@@ -20,7 +20,7 @@ public class TreeClassifier extends Classifier {
         try {
             tree.setOptions(options);     // set the options
             if (buildClassifier) {
-                tree.buildClassifier(data);   // build classifier
+                tree.buildClassifier(data);   // build classifier (not necessary when using this with Evaluation)
             }
         } catch (Exception e) {
             throw new WekaException(e);
