@@ -12,12 +12,12 @@ import javax.inject.Inject;
 
 public class WekaDemo {
 
-    DataProvider dataProvider;
-    EvaluationProvider evaluationProvider;
-    EvaluationPresenter evaluationPresenter;
+    private final DataProvider dataProvider;
+    private final EvaluationProvider evaluationProvider;
+    private final EvaluationPresenter evaluationPresenter;
 
     @Inject
-    public WekaDemo(DataProvider dataProvider,EvaluationProvider evaluationProvider,
+    public WekaDemo(DataProvider dataProvider, EvaluationProvider evaluationProvider,
                     EvaluationPresenter evaluationPresenter) {
         this.dataProvider = dataProvider;
         this.evaluationProvider = evaluationProvider;
