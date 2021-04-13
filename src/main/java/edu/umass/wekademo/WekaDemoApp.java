@@ -6,7 +6,7 @@ public class WekaDemoApp {
 
     public static void main(String[] args) {
         Feather feather = Feather.with();
-        WekaDemo wekaDemo =feather.instance(WekaDemo.class);;
+        WekaDemo wekaDemo = feather.instance(WekaDemo.class);;
         wekaDemo.run();
     }
 
