@@ -6,6 +6,9 @@ import weka.classifiers.Evaluation;
 
 import java.util.Random;
 
+/**
+ * Provides evaluations for a given classifier. Currently implemented with cross validation
+ */
 public class EvaluationProvider {
 
     public Evaluation getCrossValidationEvaluation(Classifier classifier) {

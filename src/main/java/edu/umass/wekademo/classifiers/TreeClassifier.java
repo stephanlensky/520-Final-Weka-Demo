@@ -4,6 +4,9 @@ import edu.umass.wekademo.exceptions.WekaException;
 import weka.classifiers.trees.J48;
 import weka.core.Instances;
 
+/**
+ * J48 decision tree classifier
+ */
 public class TreeClassifier extends Classifier {
     private static final String NAME = "J48 Decision Tree Classifier";
     private final J48 tree;

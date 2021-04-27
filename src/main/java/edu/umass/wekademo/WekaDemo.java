@@ -10,6 +10,9 @@ import weka.core.Instances;
 
 import javax.inject.Inject;
 
+/**
+ * Runs the Weka demo, testing the heart disease dataset on each classifier and outputting the evaluation results
+ */
 public class WekaDemo {
 
     private final DataProvider dataProvider;

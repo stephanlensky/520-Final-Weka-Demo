@@ -3,6 +3,10 @@ package edu.umass.wekademo.presenters;
 import edu.umass.wekademo.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 
+/**
+ * Handles outputting the evaluation results for a given classifier to the terminal
+ * (in this case the terminal is the "view")
+ */
 public class EvaluationPresenter {
 
     public void show(Classifier classifier, Evaluation evaluation) {

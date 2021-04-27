@@ -6,6 +6,10 @@ import weka.core.converters.ConverterUtils.DataSource;
 
 import java.net.URL;
 
+/**
+ * Loads test data from a file into the Weka Instances class, used as input for a classifier
+ * Assumes the column to classify is last in the file
+ */
 public class DataProvider {
 
     public DataSource getDataSource(String filename) {
