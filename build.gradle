@@ -4,6 +4,24 @@ plugins {
 
 apply plugin : 'java'
 
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main/'
+        }
+    }
+
+    test {
+        java {
+            srcDirs = ["src/test/"]
+        }
+    }
+}
+
+test {
+    useJUnit()
+}
+
 ext {
     javaMainClass = "edu.umass.wekademo.WekaDemoApp"
 }
