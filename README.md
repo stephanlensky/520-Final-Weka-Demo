@@ -12,4 +12,9 @@ This project is built using Gradle. To run the project and show the accuracy res
 ==== J48 Decision Tree Classifier ====
 Total correct: 236/303
 Percentage correct: 77.89%
+
+Confusion matrix:
+             Predicted NO  Predicted YES
+ Actual NO   107            31
+ Actual YES  36            129
 ```
